@@ -1,0 +1,47 @@
+[WDM] - Downloading:   0%|          | 0.00/6.98M [00:00<?, ?B/s][WDM] - Downloading: 100%|██████████| 6.98M/6.98M [00:00<00:00, 239MB/s]
+currently watching: https://www.youtube.com/watch?v=9i2jpfMFA_Q&list=PLEb2sDZfLBsKNfxIB1i-Uyk-hpAims3Wc
+Traceback (most recent call last):
+  File "/root/yt-watch-hours-gen/main.py", line 39, in <module>
+    main(args)
+  File "/root/yt-watch-hours-gen/main.py", line 27, in main
+    drivers[i].save_screenshot(str(time.time())+".png")
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 917, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 893, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 927, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 938, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: headless chrome=113.0.5672.126)
+Stacktrace:
+#0 0x5585d0199133 <unknown>
+#1 0x5585cfecd966 <unknown>
+#2 0x5585cfea7cec <unknown>
+#3 0x5585cff2ec0f <unknown>
+#4 0x5585cff41c2b <unknown>
+#5 0x5585cff299a3 <unknown>
+#6 0x5585cfefe46a <unknown>
+#7 0x5585cfeff55e <unknown>
+#8 0x5585d0158cae <unknown>
+#9 0x5585d015c8fe <unknown>
+#10 0x5585d0165f20 <unknown>
+#11 0x5585d015d923 <unknown>
+#12 0x5585d0130c0e <unknown>
+#13 0x5585d0180b08 <unknown>
+#14 0x5585d0180c97 <unknown>
+#15 0x5585d0191113 <unknown>
+#16 0x7f71a1490402 <unknown>
+
+currently watching: https://www.youtube.com/watch?v=9i2jpfMFA_Q&list=PLEb2sDZfLBsKNfxIB1i-Uyk-hpAims3Wc
+watch done. program exited.
+[WDM] - Downloading:   0%|          | 0.00/6.98M [00:00<?, ?B/s][WDM] - Downloading: 100%|██████████| 6.98M/6.98M [00:00<00:00, 201MB/s]
+currently watching: https://www.youtube.com/watch?v=9i2jpfMFA_Q&list=PLEb2sDZfLBsKNfxIB1i-Uyk-hpAims3Wc
+watch done. program exited.
+[WDM] - Downloading:   0%|          | 0.00/6.98M [00:00<?, ?B/s][WDM] - Downloading: 100%|██████████| 6.98M/6.98M [00:00<00:00, 164MB/s]
